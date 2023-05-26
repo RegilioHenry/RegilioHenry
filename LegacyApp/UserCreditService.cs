@@ -8,6 +8,7 @@ namespace LegacyApp
         public int GetCreditLimit(string firstname, string surname, DateTime dateOfBirth)
         {
             return 500;
+
         }
         public async Task<int> GetCreditLimitAsync(string firstname, string surname, DateTime dateOfBirth)
         {
